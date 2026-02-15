@@ -1,0 +1,143 @@
+nav {
+    background-color: #602263;
+}
+
+a {
+    background-color: #602263;
+    color:whitesmoke;
+}
+
+a:hover {
+    background-color: #d792da;
+    border-radius: 12.5%;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+h3 {
+    color:#602263;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #602263 !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    border-color: transparent;
+}
+
+.btn-primary:hover{
+    background-color: #d792da !important;
+    border-color: transparent;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+    border-color: #f0d8f1;
+}
+
+.link-text {
+    color:whitesmoke;
+    text-align: center;
+}
+
+.round-border {
+    border-top-left-radius: 6.25%;
+    border-top-right-radius: 6.25%;
+}
+
+.container-subscription {
+    border-color: #d792da !important;
+    border-radius: 10px;
+    border-width:10px;
+}
+
+.table-top {
+    background-color: #602263;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: none;
+}
+
+.table-bottom {
+    background-color: #602263;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.table-border-left {
+    border-left-color: whitesmoke;
+    border-left-style: solid;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-width: 1px;
+}
+
+.table-title {
+    color:whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-footer-text {
+    color:whitesmoke;
+    text-align: left;
+}
+
+.table-item {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0d8f1;
+}
+
+.table-item-text {
+    color:black;
+}
+
+.supp-item {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0d8f1;   
+}
+
+.symptom-item {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0d8f1;   
+}
+
+.supplement-item {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0d8f1;   
+}
+
+.symptom-item:hover {
+    background-color: #d792da;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0d8f1; 
+    cursor:pointer;
+}
+
+.symptom-item-active {
+    background-color: #602263;
+    color:white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0d8f1;
+    cursor:pointer;   
+}
+
+.supp-show {
+    visibility: visible;
+}
+
+.supp-hide {
+    visibility: hidden;
+}
