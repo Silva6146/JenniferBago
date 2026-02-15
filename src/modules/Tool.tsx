@@ -118,8 +118,6 @@ function Tool() {
                         }
                       }
                       
-                      
-
                       setLtSupp(_updateSuppList)
                       setLtSymptomState(_updateList)
                     }}>
