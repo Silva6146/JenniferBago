@@ -1,7 +1,7 @@
 function Dashboard() {
 
 
-  //region Table Items
+  //#region Table Items
     const _tblItems = [
       (
         <div className="row table-item">
@@ -184,7 +184,7 @@ function Dashboard() {
         </div>
       )
     ];
-  //endregion
+  //#endregion
 
   return (
     <div className="container-fluid">
@@ -215,7 +215,7 @@ function Dashboard() {
 
           <div className="row table-bottom">
             <div className="col-4">
-              <p className="table-footer-text mt-2">Last Updated at 14/02/2026 14:24</p>              
+              <p className="table-footer-text mt-2">Last Update - 14:24 14/02/2026</p>              
             </div>
             <div className="col-4">
             </div>

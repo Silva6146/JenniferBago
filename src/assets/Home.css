@@ -51,8 +51,9 @@ h3 {
 
 .container-subscription {
     border-color: #d792da !important;
+    border-style:solid;
     border-radius: 10px;
-    border-width:10px;
+    border-width:2px;
 }
 
 .table-top {
@@ -141,3 +142,36 @@ h3 {
 .supp-hide {
     visibility: hidden;
 }
+
+body input[type=text] {
+    width: 40%;
+}
+
+body input[type=text]:focus {
+    border-color: #d792da;
+	outline: 2px solid #d792da;
+	outline-offset: -2px;
+}
+
+body input[type=text]:active {
+    border-color: #d792da;
+	outline: 2px solid #d792da;
+	outline-offset: -2px;
+}
+
+body textarea:active {
+    border-color: #d792da;
+	outline: 2px solid #d792da;
+	outline-offset: -2px;
+}
+
+body textarea:focus {
+    border-color: #d792da;
+	outline: 2px solid #d792da;
+	outline-offset: -2px;
+}
+
+body textarea{
+    resize: none;
+}
+

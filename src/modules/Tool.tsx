@@ -55,7 +55,18 @@ function Tool() {
   //#region Return Component Code
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid py-5">
+      <div className="row mt-1 mb-3">
+        <div className="col"></div>
+        <div className="col-10">
+          <div className="row"><p>Title:</p></div>
+          <div className="row"><div className="col-10"><input placeholder="Report's Title" type="text"></input></div><div className="col-2"></div></div>
+          <div className="row mt-2"><p>Summary:</p></div>
+          <div className="row"><div className="col"><textarea rows={10} cols={100} placeholder="Write the information here, choose the Symptoms below"></textarea></div></div>
+        </div>
+        <div className="col"></div>
+      </div>
+
       <div className="row mt-5"> 
         <div className="col"></div>
         <div className="col-10">

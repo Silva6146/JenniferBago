@@ -8,26 +8,27 @@ function Content() {
   const _height = 24;
 
   return (
+    
     <div className="container-fluid">
       <div className="row mt-5">
         <div className="col"></div>
+
         <div className="col-4">
           <div className="row"><img className="img-fluid round-border" src={_phImage0}></img></div>
           <div className="row mt-4"><h3>Boost Your Health!</h3></div>
           <div className="row"><p>If you use Supplement InstaList and you have Personal or Pro Subscription you can acess your Submitted Reports!</p></div>
           <div className="row"><button type="button" className="btn btn-primary">My Reports</button></div>
         </div>
+
         <div className="col-2"></div>
         <div className="col-4">
           <div className="row"><img className="img-fluid round-border" src={_phImage1} width="32"></img></div>
           <div className="row mt-2"><h3>Supplement InstaList Reports</h3></div>
           <div className="row"><p>With Supplement InstaList Personal or Pro Subscription you can acess your Reports. And use the tools, made by a specialist, anywhere!</p></div>
           
-          <div className="row">
-            <div className="row">
-              <h3>Personal</h3>
-            </div>
+          <div className="row container-subscription pt-1">
             
+            <div className="row"><h3>Personal</h3></div>
             <div className="row">
               <div className="col">
                 <svg xmlns="http://www.w3.org/2000/svg" width={_width} height={_height} fill="#602263" className="bi bi-check-lg" viewBox="0 0 16 16">
@@ -39,7 +40,6 @@ function Content() {
               </div>
               <div className="col-4"></div>
             </div>
-
             <div className="row">
               <div className="col">
                 <svg xmlns="http://www.w3.org/2000/svg" width={_width} height={_height} fill="#602263" className="bi bi-check-lg" viewBox="0 0 16 16">
@@ -53,11 +53,8 @@ function Content() {
             </div>
           </div>
           
-          <div className="row mt-3">
-            <div className="row">
-              <h3>Pro</h3>
-            </div>
-            
+          <div className="row mt-3 mb-2 container-subscription">
+            <div className="row"><h3>Pro</h3></div>
             <div className="row">
               <div className="col">
                 <svg xmlns="http://www.w3.org/2000/svg" width={_width} height={_height} fill="#602263" className="bi bi-check-lg" viewBox="0 0 16 16">
@@ -69,7 +66,6 @@ function Content() {
               </div>
               <div className="col-4"></div>
             </div>
-
             <div className="row">
               <div className="col">
                 <svg xmlns="http://www.w3.org/2000/svg" width={_width} height={_height} fill="#602263" className="bi bi-check-lg" viewBox="0 0 16 16">
